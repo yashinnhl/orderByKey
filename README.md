@@ -1,6 +1,6 @@
 # JSON Key Order
 
-This is a simple package for moving key into a json object.
+This is a simple node package for moving key into a json object.
 
 
 # Installation
@@ -10,7 +10,7 @@ This is a simple package for moving key into a json object.
 Then you can import it
 
 ```
-import { orderByKey } from 'json-key-order';
+const orderByKey = require('json-key-order');
 
 const jsonData = {
     Platforms: "das",

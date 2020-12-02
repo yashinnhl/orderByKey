@@ -1,6 +1,6 @@
 {
   "name": "json-key-order",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "a utility for ordering json key inside nested objects",
   "main": "index.js",
   "scripts": {
