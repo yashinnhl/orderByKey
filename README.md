@@ -88,7 +88,7 @@ const jsonData = {
     status: "success"
   };
 
-const c = orderByKey(jsonData, 'ws,build,details.buildPlatforms,details.storage, details.system.meminfo');
+const c = orderByKey(jsonData, 'ws,build,details.buildPlatforms,details.storage,details.system.meminfo');
   
 console.log(JSON.stringify(c, null, 2));
 
@@ -96,4 +96,7 @@ console.log(JSON.stringify(c, null, 2));
 
   # Options
 
-  TBD
+  OrderByKey(data, keyorder)
+
+  data is a josn object
+  keyorder is comma separated string of list of keys e.g. 'data.key1, key2, data,key3.key1'
