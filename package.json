@@ -1,0 +1,27 @@
+{
+  "name": "json-key-order",
+  "version": "1.0.0",
+  "description": "a utility for ordering json key inside nested objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashinnhl/orderByKey.git"
+  },
+  "keywords": [
+    "json",
+    "order",
+    "key",
+    "orderby",
+    "orderByKey",
+    "nested"
+  ],
+  "author": "Yasin Farmani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashinnhl/orderByKey/issues"
+  },
+  "homepage": "https://github.com/yashinnhl/orderByKey#readme"
+}
